@@ -1,6 +1,12 @@
 *{
-    background-color: aquamarine;
+    background-color: rgb(104, 151, 141);
 }
-h1{
-    color: blue;
+h1,h2{
+    color: darkolivegreen;
+}
+a:visited{
+    color: blueviolet;
+}
+a:link{
+    color: green;
 }
