@@ -1,8 +1,72 @@
-*{
-    background-color: beige;
-
-}
-h1{
-    background-color: rgb(121, 83, 83);
-    width: 125px;
-}
+ body{
+            align-items: center;
+            flex-direction: column;
+            margin-left: 550px;
+            background-color: rgb(220, 195, 227);
+            
+        }
+        
+        #t12{
+            border:3px solid black;
+            margin:2px;
+            padding:2px;
+            color: black;
+            background-color:rgb(87, 89, 176);
+            width:max-content;
+            margin-bottom: 20px;
+            border-radius: 20px;
+            text-align: center;
+            align-items: center;
+            
+        }
+    .perinfo{
+            font-size: large;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            border:3px solid black;
+            margin:2px;
+            padding:2px;
+            color: black;
+            background-color: rgb(218, 235, 243);
+            width: 400px;
+            margin-bottom: 20px;
+            border-radius: 20px;
+            text-align: left;
+            align-items: center;
+        }
+        h3{
+            font-size: large;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .jobinfo{
+            font-size: large;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+             border:3px solid black;
+            margin:2px;
+            padding:2px;
+            color: black;
+            background-color: rgb(218, 235, 243);
+            width: 400px;
+            margin-bottom: 20px;
+            border-radius: 20px;
+            text-align: left;
+            align-items: center;
+        }
+        .availability{
+            font-size: large;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            border:3px solid black;
+            margin:2px;
+            padding:2px;
+            color: black;
+            background-color: rgb(218, 235, 243);
+            width: 400px;
+            margin-bottom: 20px;
+            border-radius: 20px;
+            text-align: left;
+            align-items: center;
+        }
+    
