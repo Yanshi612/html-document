@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body {
+      color: rgb(255, 255, 255);
+      margin: 20px;
+      font-family: Arial, Helvetica, sans-serif;
+      padding-left: 235px;
+      background-image: url(https://marketplace.canva.com/EAFA7Zl1wfs/1/0/1600w/canva-pastel-red-green-illustrative-element-centric-video-background-Rs7EVOqIM2c.jpg);
+      /* background-image: url(https://static.vecteezy.com/system/resources/previews/013/214/410/non_2x/food-manu-and-background-old-free-vector.jpg);  */
+    }
+
+    .h1 {
+      /* background-color: rgb(158, 92, 0);
+      margin: 50px;
+      padding: 50px; */
+      color: rgb(0, 0, 0);
+      text-align: center;
+      font-weight: 1000;
+    }
+
+    img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+
+    .sidebar {
+      width: 200px;
+      background-color: rgb(31, 31, 31);
+      color: rgb(245, 231, 255);
+      height: 100vh;
+      padding: 15px;
+      position: fixed;
+      top: 0;
+      left: 0;
+    }
+
+    .sidebar a {
+      display: block;
+      color: white;
+      padding: 10px;
+      text-decoration: none;
+    }
+
+    /* Vertical container for specials */
+    .specials-container {
+      display: flex;
+      flex-direction: column;
+      gap: 10px; /* spacing between boxes */
+      align-items: center;
+      margin-top: 10px;
+    }
+
+    /* Individual box styling */
+    .special-item {
+      background-color: rgb(0, 0, 0);
+      border: 2px solid rgb(255, 255, 255);
+      border-radius: 10px;
+      padding: 10px;
+      /* background-color: rgb(230, 230, 250); */
+      text-align: center;
+      width: 350px;  /* same width for all boxes */
+      height: 350px; /* same height for all boxes */
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .special-item h2 {
+      margin: 10px 0;
+    }
+
+    .special-item p {
+      font-size: 15px;
+    }
+
+    #button, #button2 {
+      margin: 10px;
+      padding: 10px 15px;
+      border-radius: 8px;
+      border: 2px solid black;
+      cursor: pointer;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 20px;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h1 class="h1">YANSHI'S RESTAURANT</h1>
+  <h2 class="h1">Welcome to the restaurant. here'</h2>
+
+  <div class="sidebar">
+    <h2>MENU</h2>
+    <nav>
+      <a href="home">Home</a>
+      <a href="starters">Starters</a>
+      <a href="main course">Main Course</a>
+      <a href="desserts">Desserts</a>
+      <a href="contact">Contact</a>
+    </nav>
+  </div>
+
+  <h1 class="h1">Our Specials</h1>
+
+  <!-- Vertical container -->
+  <div class="specials-container">
+    <div class="special-item">
+      <h2>Margherita Pizza</h2>
+      <img src="https://safrescobaldistatic.blob.core.windows.net/media/2022/11/PIZZA-MARGHERITA.jpg" alt="">
+      <p>It is a classic Italian pizza topped with fresh tomatoes, mozzarella cheese, and basil, offering a simple yet delicious flavor. 🍕🌿</p>
+    </div>
+
+    <div class="special-item">
+      <h2>Paneer Butter Masala</h2>
+      <img src="https://www.indianhealthyrecipes.com/wp-content/uploads/2023/07/paneer-butter-masala-recipe.jpg" alt="">
+      <p>It is a rich, creamy, and mildly spiced tomato-based curry with soft paneer cubes, best enjoyed with naan or rice. 🍛✨</p>
+    </div>
+
+    <div class="special-item">
+      <h2>Chocolate Brownie</h2>
+      <img src="https://www.lifeasastrawberry.com/wp-content/uploads/2024/08/rich-chocolate-brownie.jpg" alt="">
+      <p>It is a dense, fudgy, and chocolaty dessert that’s rich, sweet, and utterly irresistible. 🍫✨</p>
+    </div>
+  </div>
+
+  <button id="button">Light mode</button>
+  <button id="button2">Day mode</button>
+
+  <footer>
+    &copy; 2025 Yanshi | All Rights Reserved
+  </footer>
+</body>
+</html>

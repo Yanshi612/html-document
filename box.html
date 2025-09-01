@@ -1,0 +1,97 @@
+<div class="flex-container">
+  <div class="item">Box 1</div>
+  <div class="item">Box 2</div>
+  <div class="item">Box 3</div>
+</div>
+
+<style>
+.flex-container {
+  display: flex;          /* enable flexbox */
+  justify-content: center;/* align horizontally */
+  align-items: center;    /* align vertically */
+  gap: 20px;              /* space between items */
+  height: 200px;
+  background: lightblue;
+}
+.item {
+  background: coral;
+  padding: 20px;
+  border-radius: 8px;
+}
+</style>
+<div class="grid-container">
+  <div class="box">1</div>
+  <div class="box">2</div>
+  <div class="box">3</div>
+  <div class="box">4</div>
+</div>
+
+<style>
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 equal columns */
+  gap: 15px;
+  background: lightgreen;
+  padding: 20px;
+}
+.box {
+  background: tomato;
+  padding: 30px;
+  text-align: center;
+  border-radius: 8px;
+}
+</style>
+<div class="responsive-box">Resize me!</div>
+
+<style>
+.responsive-box {
+  background: orange;
+  padding: 20px;
+  text-align: center;
+}
+
+/* For tablets (max width 768px) */
+@media (max-width: 768px) {
+  .responsive-box {
+    background: lightblue;
+  }
+}
+
+/* For mobile (max width 480px) */
+@media (max-width: 480px) {
+  .responsive-box {
+    background: pink;
+    font-size: 18px;
+  }
+}
+</style>
+<button class="btn">Hover Me</button>
+
+<style>
+.btn {
+  padding: 15px 30px;
+  border: none;
+  background: royalblue;
+  color: white;
+  font-size: 18px;
+  border-radius: 10px;
+  transition: background 0.3s, transform 0.3s;
+}
+.btn:hover {
+  background: darkblue;
+  transform: scale(1.1); /* zoom effect */
+}
+</style>
+<div class="card">Shadow Effect</div>
+
+<style>
+.card {
+  width: 200px;
+  padding: 30px;
+  margin: 50px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.3); /* shadow */
+  text-align: center;
+}
+</style>
