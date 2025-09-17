@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pricing Table</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f9f9f9;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .pricing-container {
+      display: flex;
+      gap: 20px;
+    }
+
+    .card {
+      background: #fff;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      text-align: center;
+      padding: 20px;
+      width: 220px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+      box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    }
+
+    .card h3 {
+      margin-bottom: 10px;
+      color: #333;
+    }
+
+    .price {
+      font-size: 24px;
+      margin-bottom: 15px;
+      color: #007BFF;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin-bottom: 20px;
+    }
+
+    ul li {
+      margin: 8px 0;
+      color: #555;
+    }
+
+    .btn {
+      text-decoration: none;
+      background: #007BFF;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 5px;
+      display: inline-block;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background: #0056b3;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="pricing-container">
+    <div class="card">
+      <h3>Basic</h3>
+      <p class="price">$9/mo</p>
+      <ul>
+        <li>✔️5 Projects</li>
+        <li>✔️1 GB Storage</li>
+        <li>✔️Basic Support</li>
+        <li>✔️Advanced Features</li>
+      </ul>
+      <a href="#" class="btn">Choose Plan</a>
+    </div>
+
+    <div class="card" style="border: 2px solid #007BFF;">
+      <h3>Standard</h3>
+      <p class="price">$19/mo</p>
+      <ul>
+        <li>✔️20 Projects</li>
+        <li>✔️50 GB Storage</li>
+        <li>✔️Priority Support</li>
+        <li>✔️Advanced Features</li>
+      </ul>
+      <a href="#" class="btn">Choose Plan</a>
+    </div>
+
+    <div class="card">
+      <h3>Premium</h3>
+      <p class="price">$29/mo</p>
+      <ul>
+        <li>✔️Unlimited Projects</li>
+        <li>✔️200 GB Storage</li>
+        <li>✔️24/7 Support</li>
+        <li>✔️All Features</li>
+      </ul>
+      <a href="#" class="btn">Choose Plan</a>
+    </div>
+  </div>
+
+</body>
+</html>
